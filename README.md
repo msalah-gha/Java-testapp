@@ -15,8 +15,8 @@ Steps are the following:
         
         B. Create tomcat container<br />
         
-     ++ --> Will move the file devopsarea-01.war from maven container to /webapp in tomcat contaner<br />
-     ++ --> Do health check to make sure that the artifact is deployed
+     +++ --> Will move the file devopsarea-01.war from maven container to /webapp in tomcat contaner<br />
+     +++ --> Do health check to make sure that the artifact is deployed
 
 3. Run 'docker build -t devopsarea .' <br />
       -->  Will create a Docker image called devopsarea <br />
